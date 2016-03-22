@@ -15,7 +15,7 @@ public class ServerThread extends Thread {
     public ServerThread(Socket clientSocket) {
         this.clientSocket = clientSocket;
     }
-    //String regex = [0-9]
+    
 
     public static double sabiranje(String znak, String odKlijenta) {
         String[] brojeviString = odKlijenta.split(znak);
